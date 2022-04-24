@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    
+    <title>YumPizza</title>
+    
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Yomogi&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/d466b3c186.js" crossorigin="anonymous"></script>
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <header>
+        <div class="menu container">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+                    <div class="container justify-content-center">
+                  
+                        <img src="img/logo.svg" class="navbar-brand">
+                        
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <div class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#pizzas">Пицца</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#desserts">Десерты</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#drinks">Напитки</a>
+                                  </li>  
+                                  <li class="nav-item">
+                                    <a class="nav-link">Промокоды</a>
+                                  </li>  
+                                  <li class="nav-item">
+                                    <a class="nav-link">Доставка</a>
+                                  </li>
+                            </div>
+                           
+                        </div>
+                        <a href="/cart.html">
+                        <i  class="fa-solid fa-cart-shopping fa-xl"></i>
+                        </a>
+                        <div class="count-cart">
+                            <p id="counter">0</p>
+                        </div>
+                        
+                    </div>
+                </nav>
+        </div>
+
+        <div class="slider-block container">
+            <div class="row">
+                <h1>Часто заказывают</h1>
+            </div>
+
+        
+            <div class="swiper">
+                
+                <div class="swiper-wrapper">
+           
+                
+                  <div  class="swiper-slide">
+                   
+                    
+                    <a class="swiper-link" href="#pizzas">
+                       
+                            <img  src="https://dodopizza-a.akamaihd.net/static/Img/Products/eb6d128bbcd340e98fd4f14b377e769f_292x292.jpeg">
+                            <a>Пепперони фреш</a> 
+                       
+                     
+
+                    </a>
+                    
+                    
+                    
+                  </div>
+               
+
+                <div class="swiper-slide">
+                    <a class="swiper-link" href="#pizzas">
+                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/5630c6ed3f394c7ba25e1ef79a67b7ee_292x292.jpeg">
+                    <a>Ветчина и сыр</a>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a class="swiper-link" href="#pizzas">
+                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/5bf1c77b3ff44f93bb01c840ab35b033_292x292.jpeg">
+                    <a>Гавайская</a>
+                </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a class="swiper-link" href="#desserts">
+                    <img src="img/deserts/cheese_cake.png">
+                    <a>Чизкейк клубничный</a>
+                </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a class="swiper-link" href="#desserts">
+                    <img src="img/deserts/Tiramisu.png">
+                    <a>Тирамису</a>
+                    <a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a class="swiper-link" href="#drinks">
+                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/73eb242273e0477e9544104ca9b1d42f_292x292.jpeg">
+                    <a>Sprite</a>
+                </a>
+                </div>
+                
+                
+                </div>
+               
+                <div class="swiper-btn swiper-button-prev">
+                    <i class="fa-solid fa-circle-chevron-left fa-2xl"></i>
+                </div>
+                <div class="swiper-btn swiper-button-next">
+                    <i class="fa-solid fa-circle-chevron-right fa-2xl"></i>
+                </div>
+              
+               
+              
+              </div>
+
+        </div>
+
+
+
+      
+            
+    </header>
+
+
+
+    <div class="main container">
+
+        
+
+        <div id="pizzas" class="sections">
+            <h2>Пицца</h2>
+            <div class="section row">
+                <div class="block-el col-3">
+                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/eb6d128bbcd340e98fd4f14b377e769f_292x292.jpeg">
+                    <div class="information">
+                        <h5>Пепперони фреш</h5>
+                    <p>
+                        Пикантная пепперони, томаты, томатный соус
+                    </p>
+                    </div>
+                    
+    
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 470₽</h5>
+                        
+                        <button id="01" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+
+                <div class="block-el col-3">
+                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/aa845b6e841241fbbff1a770b3ad3103_292x292.jpeg">
+                    <div class="information">
+                    <h5>Ветчина и грибы</h5>
+                    <p>
+                        Ветчина, шампиньоны, увеличенная порция моцареллы, томатный соус
+                    </p>
+                    </div>
+                    <div class="footer row align-items-end">
+                        <h5 class="col-5">от 550₽</h5>
+                        
+                        <button id="02" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+                <div class="block-el col-3">
+                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/01735d5a70154bd3884899030a671629_292x292.jpeg">
+
+                    <div class="information">
+                    <h5>Сырный цыпленок</h5>
+                    <p>
+                        Цыпленок, моцарелла, сыры чеддер и пармезан, сырный соус, томаты, соус альфредо, чеснок
+                    </p>
+                 </div>
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 469₽</h5>
+                        
+                        <button id="03" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+                <div class="block-el col-3">
+                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/5bf1c77b3ff44f93bb01c840ab35b033_292x292.jpeg">
+
+                    <div class="information">
+                    <h5>Гавайская</h5>
+                    <p>
+                        Ветчина, ананасы, моцарелла, томатный соус
+                    </p>
+                 </div>
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 400₽</h5>
+                        
+                        <button id="04" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+               
+            </div>
+            
+         
+      
+
+
+
+
+
+
+            <div class="section row">
+                <div class="block-el col-3">
+                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/d23af75498eb47a8a586313792da917f_292x292.jpeg">
+                    <div class="information">
+                    <h5>Цыпленок ранч</h5>
+                    <p>
+                        Цыпленок, ветчина, соус ранч, моцарелла, томаты, чеснок
+                    </p>
+                    </div>
+                    <div class="footer row align-items-end">
+                        <h5 class="col-5">от 579₽</h5>
+                        
+                        <button id="05" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+
+                <div class="block-el col-3">
+                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/5630c6ed3f394c7ba25e1ef79a67b7ee_292x292.jpeg">
+                    <div class="information">
+                        <h5>Ветчина и сыр</h5>
+                    <p>
+                        Ветчина, моцарелла, соус альфредо
+                    </p>
+                    </div>
+                    
+    
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 250₽</h5>
+                        
+                        <button id="06" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+
+                <div class="block-el col-3">
+                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/57157f013c164840a24c1d49c7adb3b6_292x292.jpeg">
+
+                    <div class="information">
+                    <h5>Цыпленок барбекю</h5>
+                    <p>
+                        Цыпленок, бекон, соус барбекю, красный лук, моцарелла, томатный соус
+                    </p>
+                 </div>
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 449₽</h5>
+                        
+                        <button id="07" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+                <div class="block-el col-3">
+                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/961ba97167754e35831d1640ab91a4fe_292x292.jpeg">
+
+                    <div class="information">
+                    <h5>Индейка в мандаринах</h5>
+                    <p>
+                        Пастрами из индейки, соус альфредо, мандарины, моцарелла, смесь сыров чеддер и пармезан
+                    </p>
+                 </div>
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 570₽</h5>
+                        
+                        <button id="08" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+               
+            </div>
+            
+            
+
+
+            
+          
+        </div>
+
+
+
+        <div id="desserts" class="sections">
+            <h2>Десерты</h2>
+
+            <div class="section row">
+                <div class="block-el col-3">
+                    <img src="img/deserts/cheese_cake.png">
+                    <div class="information">
+                    <h5>Чизкейк клубничный</h5>
+                    <p>
+                        Классический чизкейк Нью-Йорк с вихрями из пюре из натуральной клубники.
+                    </p>
+                    </div>
+                    <div class="footer row align-items-end">
+                        <h5 class="col-5">от 200₽</h5>
+                        
+                        <button id="09" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+
+                <div class="block-el col-3">
+                    <img src="img/deserts/Fruitcake.png">
+                    <div class="information">
+                        <h5>Немецкий шоколадный торт</h5>
+                    <p>
+                        Насыщенный шоколадом слой брауни с воздушным муссом из молочного шоколада, шоколадным бисквитом.
+                    </p>
+                    </div>
+                    
+    
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 250₽</h5>
+                        
+                        <button id="10" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+
+                <div class="block-el col-3">
+                    <img src="img/deserts/Tiramisu.png">
+
+                    <div class="information">
+                    <h5>Тирамису</h5>
+                    <p>
+                        Пропитанный кофе с ликером бисквит и нежный крем из свежего сыра маскарпоне.
+                    </p>
+                 </div>
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 349₽</h5>
+                        
+                        <button id="11" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+                <div class="block-el col-3">
+                    <img src="img/deserts/beze_limon.png">
+
+                    <div class="information">
+                    <h5>Лимонный пирог</h5>
+                    <p>
+                        Лимонный торт на подложке из песочного теста. С приятной кислинкой и тающий во рту.
+                    </p>
+                 </div>
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 270₽</h5>
+                        
+                        <button id="12" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+               
+            </div>
+
+
+            <div class="section row">
+                <div class="block-el col-3">
+                    <img src="img/deserts/chocolate_tort.png">
+                    <div class="information">
+                    <h5>Красный бархатный торт</h5>
+                    <p>
+                        Три слоя сочного шоколадного брауни, пропитанные густой карамелью.
+                    </p>
+                    </div>
+                    <div class="footer row align-items-end">
+                        <h5 class="col-5">от 379₽</h5>
+                        
+                        <button id="13" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+
+                <div class="block-el col-3">
+                    <img src="img/deserts/chesee_cake_chocolate.png">
+                    <div class="information">
+                        <h5>Чизкейк Шоколадный</h5>
+                    <p>
+                        Классический американский чизкейк, но с изюминкой - шоколадный!
+                    </p>
+                    </div>
+                    
+    
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 240₽</h5>
+                        
+                        <button id="14" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+
+                <div class="block-el col-3">
+                    <img src="img/deserts/keks.png">
+
+                    <div class="information">
+                    <h5>Маффин с черникой</h5>
+                    <p>
+                        Воздушные маффины с черникой, они такие нежные и воздушные, что буквально тают во рту.
+                    </p>
+                 </div>
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 149₽</h5>
+                        
+                        <button id="15" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+                <div class="block-el col-3">
+                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/09cd1af3588944bcb56dded118a9774a_292x292.jpeg">
+
+                    <div class="information">
+                    <h5>Фонданы</h5>
+                    <p>
+                        Французский десерт с хрустящей корочкой и топленой шоколадной начинкой.
+                    </p>
+                 </div>
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 279₽</h5>
+                        
+                        <button id="16" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+
+        <div id="drinks" class="sections">
+            <h2>Напитки</h2>
+
+            <div class="section row">
+                <div class="block-el col-3">
+                    <img src="img/drinks/seven_up.png">
+                    <div class="information">
+                    <h5>7 up</h5>
+                    </div>
+                    <div class="footer row align-items-end">
+                        <h5 class="col-5">от 100₽</h5>
+                        
+                        <button id="17" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+
+                <div class="block-el col-3">
+                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/73eb242273e0477e9544104ca9b1d42f_292x292.jpeg">
+                    <div class="information">
+                        <h5>Sprite</h5>
+
+                    </div>
+                    
+    
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 100₽</h5>
+                        
+                        <button id="18" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+
+                <div class="block-el col-3">
+                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/5a945ed86ef943ac9583c4a6413d9ad0_292x292.jpeg">
+
+                    <div class="information">
+                    <h5>Coca-Cola</h5>
+
+                 </div>
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 100₽</h5>
+                        
+                        <button id="19" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+                <div class="block-el col-3">
+                    <img src="img/drinks/lipton.png">
+
+                    <div class="information">
+                    <h5>Lipton</h5>
+
+                 </div>
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 100₽</h5>
+                        
+                        <button id="20" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+               
+            </div>
+
+
+            <div class="section row">
+                <div class="block-el col-3">
+                    <img src="https://s82079.cdn.ngenix.net/330x0/E6ww5qRFgmcu8BiALW6SV6qk.png">
+                    <div class="information">
+                    <h5>Кофе Капучино</h5>
+                
+                    </div>
+                    <div class="footer row align-items-end">
+                        <h5 class="col-5">от 79₽</h5>
+                        
+                        <button id="21" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+
+                <div class="block-el col-3">
+                    <img src="https://s82079.cdn.ngenix.net/330x0/4UkJCfWF9A4que6dMPFUeeg1.png">
+                    <div class="information">
+                        <h5>Кофе Американо</h5>
+                  
+                    </div>
+                    
+    
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 50₽</h5>
+                        
+                        <button id="22" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+
+                <div class="block-el col-3">
+                    <img src="https://s82079.cdn.ngenix.net/330x0/baFNcGZXBkJDuuVv77zwpQWg.png">
+
+                    <div class="information">
+                    <h5>Кофе Латте</h5>
+                  
+                 </div>
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 49₽</h5>
+                        
+                        <button id="23" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+
+                <div class="block-el col-3">
+                    <img src="https://s82079.cdn.ngenix.net/330x0/3ueLqbYvBmSaXPUtMzxbpH6X.png">
+
+                    <div class="information">
+                    <h5>Кофе Двойной Эспрессо</h5>
+                  
+                 </div>
+                    <div class="footer row align-items-center">
+                        <h5 class="col-5">от 79₽</h5>
+                        
+                        <button id="24" type="button" class="col-6 btn btn-warning">Добавить</button>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+    </div>
+  
+
+
+
+    <div class="container-fluid page-footer">
+        
+            <p>YumPizza © 2022</p>
+       
+    </div>
+    <script src="js/slider.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
