@@ -12,12 +12,12 @@ router.post('/api/order', async (req, res)=>{
 async function sendEmail(reqBody){
        
    let transporter = nodemailer.createTransport({
-        service: 'gmail',
-        port: 993,
+        host: 'smtp.mail.ru',
+        port: 465,
         secure: true,
         auth: {
-          user: 'yumpizzamailer@gmail.com',
-          pass: 'P-44258ar',
+          user: 'yumpizza@mail.ru',
+          pass: 'ZFa8THFiY7Bu26Lj8z9f',
         }
     })
 
@@ -29,7 +29,7 @@ async function sendEmail(reqBody){
     
 
     let result = await transporter.sendMail({
-    from: '"YumPizza" yumpizzamailer@gmail.com',
+    from: '"YumPizza" yumpizza@mail.ru',
     to: reqBody.email,
     subject: 'Ваш заказ',
     html: orders.join('<br>') + `<br>Итоговая цена: <b>${reqBody.all_price}</b>`
