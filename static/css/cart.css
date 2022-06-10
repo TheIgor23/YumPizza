@@ -1,0 +1,146 @@
+.main
+{
+    margin-top: 70px;
+}
+
+.products
+{
+    margin-top: 50px;
+}
+
+.product img 
+{
+    width: 120px;
+}
+
+.product
+{
+    margin-top: 20px;
+    box-shadow: rgb(6 5 50 / 10%) 0px 4px 30px;
+    font-family: Comic, cursive !important;
+    font-size: large;
+    padding: 5px;
+   
+}
+
+
+.product-count
+{
+    background-color: #f3f3f7;
+    display: flex;
+    border-radius: 9999px;
+    width: 115px;
+}
+
+.product-count p
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    color: #5c6370;
+    font-size: large;
+}
+
+.products button
+{
+    color: #5c6370;
+    border: none;
+    background-color: transparent;
+    width: 25px;
+}
+
+.products button:hover
+{
+    color: black;
+}
+
+#all-price
+{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.shadow-back
+{
+    background-color: black;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+ 
+}
+
+.order-window
+{
+    font-family: Comic, cursive !important;
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+
+   
+    
+}
+
+.hide
+{
+    visibility: hidden;
+}
+
+i.fa-xmark
+{
+    margin-left: 230px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+
+i.fa-xmark:hover
+{
+    cursor: pointer;
+}
+
+.order-window h1
+{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.order-window input
+{
+    border: 1px solid rgb(233, 226, 226);
+    margin-top: 20px;
+    height: 56px;
+    border-radius: 12px;
+    width: 80%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.order-window input.incorrect
+{
+    border: 1px solid rgb(253, 41, 41);
+    background-color: rgba(253, 41, 41, 0.253);
+ 
+}
+
+input:focus 
+{
+    border:  1px solid #ff6900;
+    
+}
+
+.order-window button
+{
+    margin-top: 20px;
+    width: 50%;
+}

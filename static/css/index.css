@@ -1,0 +1,214 @@
+body
+{
+    font-family: 'Klee One', cursive;
+    font-family: 'Yomogi', cursive;
+    background-color: #fff;
+}
+nav
+{
+    background-color: white;
+    height: 60px;
+    box-shadow: rgb(6 5 50 / 10%) 0px 4px 30px;
+}
+i.fa-cart-shopping:hover
+{
+    cursor: pointer !important;
+}
+.nav-link
+{
+    color: black !important;
+}
+
+.nav-link:hover
+{
+    cursor: pointer;
+    color: #ff6900 !important;
+}
+nav img
+{
+    width: 35px;
+}
+
+.count-cart p
+{
+    margin-top: -4px;
+    color: white;
+    font-weight: bold;
+    -moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+}
+nav .count-cart
+{
+    visibility: hidden;
+    margin-left: -10px;
+    margin-top: 15px;
+    height: 17px;
+    width: 17px;
+    border-radius: 10px;
+    background-color: #ff6900;
+    text-align: center;
+}
+h1
+{
+    font-size: 24px;
+}
+.slider-block
+{
+    margin-top: 80px;
+}
+
+.swiper-slide
+{
+    box-shadow: rgb(6 5 50 / 15%) 0px 4px 22px -6px;
+}
+
+.swiper-btn
+{
+    visibility: hidden;
+}
+
+
+
+.swiper i
+{
+    margin-left: 15px;
+    visibility: hidden;
+    color: black;
+    
+}
+
+.swiper:hover i
+{
+    visibility: visible;
+}
+
+
+.swiper 
+{
+    font-family: Comic, cursive !important;
+    
+    padding: 15px;
+    width: 105%;
+    height: 180px;
+}
+
+.swiper-slide button
+{
+    width: 75px;
+    height: 40px;
+}
+
+.swiper-slide a 
+{
+    cursor: default;
+}
+
+.swiper-link
+{
+    display: inline-block
+}
+
+.swiper-slide img
+{
+    cursor: pointer;
+    width: 140px;
+    margin-top: 10px;
+}
+
+
+.swiper-slide
+.main
+{
+    margin-top: 20px;
+}
+
+.sections
+{
+    margin-top: 50px;
+}
+
+.section
+{
+    margin-top: 20px;
+}
+
+
+.block-el p
+{
+    font-size: 15px;
+    color:#5c6370;
+}
+
+.light-block
+{
+   
+    animation-duration: 1s;
+    animation-name: lighting;
+}
+
+@keyframes lighting {
+    from {
+       box-shadow: rgb(234 208 165) 0px 4px 30px;
+     
+    }
+  
+    to {
+        box-shadow: none;
+    }
+  }
+
+
+.block-el h5
+{
+
+    font-family: Comic, cursive !important;
+}
+
+.btn
+{
+   background-color: #ff6900;
+   color: white;
+   border-color: white !important;
+   height: 40px;
+   border-radius: 15px;
+   margin-left: -15px;
+}
+
+.btn:hover
+{
+    background-color: #e86100;
+    color: #f6e6ff;
+}
+
+.btn:focus
+{
+    
+    background-color: #e86100;
+    color: #f6e6ff;
+}
+
+.information
+{
+    height: 115px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.page-footer
+{
+    font-family: Arial, sans-serif !important;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 60px;
+    height: 100px;
+    color: #b9b9b9;
+    background-color: #181818;
+    padding-top: 30px;
+}
